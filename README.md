@@ -1,3 +1,5 @@
+![shokika.css image](https://user-images.githubusercontent.com/3617124/121719822-efa52600-cb1d-11eb-952d-076fee025521.png)
+
 # shokika.css
 
 A lightly modern reset CSS.
