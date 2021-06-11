@@ -1,7 +1,7 @@
 {
   "name": "shokika.css",
   "version": "1.0.0",
-  "description": "A lightly reset CSS.",
+  "description": "A lightly modern reset CSS.",
   "main": "shokika.css",
   "scripts": {
     "min": "postcss shokika.css > shokika.min.css",
