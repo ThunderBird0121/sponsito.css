@@ -1,0 +1,34 @@
+{
+  "name": "shokika.css",
+  "version": "1.0.0",
+  "description": "A lightly reset CSS.",
+  "main": "shokika.css",
+  "scripts": {
+    "min": "postcss shokika.css > shokika.min.css",
+    "prepublish": "npm run min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiro0218/shokika.css.git"
+  },
+  "keywords": [
+    "css",
+    "reset"
+  ],
+  "author": "hiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiro0218/shokika.css/issues"
+  },
+  "homepage": "https://github.com/hiro0218/shokika.css#readme",
+  "files": [
+    "LICENSE",
+    "shokika.css",
+    "shokika.min.css"
+  ],
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
