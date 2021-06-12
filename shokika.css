@@ -79,6 +79,28 @@ th {
   padding: 0;
 }
 
+[tabindex='0'],
+a[href],
+button,
+input,
+label,
+select,
+summary {
+  cursor: pointer;
+}
+
+[tabindex='0'],
+a[href],
+button,
+input,
+label,
+select,
+textarea,
+summary {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
