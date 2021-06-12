@@ -2,7 +2,11 @@
 
 # shokika.css
 
-A lightly modern reset CSS.
+> A lightly modern reset CSS.
+
+**shokika.css** is a modern CSS library that provides cross-browser default styles.
+
+note: shokika means "initialize" in Japanese.
 
 ## Installation
 
