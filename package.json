@@ -13,7 +13,9 @@
   },
   "keywords": [
     "css",
-    "reset"
+    "reset",
+    "reset-css",
+    "normalize-css"
   ],
   "author": "hiro",
   "license": "MIT",
