@@ -102,6 +102,19 @@ summary {
   touch-action: manipulation;
 }
 
+[aria-busy='true' i] {
+  cursor: progress;
+}
+
+[aria-controls] {
+  cursor: pointer;
+}
+
+[aria-disabled='true' i],
+[disabled] {
+  cursor: not-allowed;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
