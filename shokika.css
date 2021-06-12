@@ -51,9 +51,10 @@ ul {
   list-style: none;
 }
 
+iframe,
 img,
+video,
 picture {
-  display: block;
   max-width: 100%;
   height: auto;
 }
