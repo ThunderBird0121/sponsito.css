@@ -17,18 +17,35 @@ yarn add shokika.css
 ```
 
 **CDN**
-```html
-<link rel="stylesheet" href="https://unpkg.com/shokika.css@1.0.0/shokika.min.css" />
 ```
+https://unpkg.com/shokika.css@1/shokika.min.css
+```
+
+or [Download the latest version](https://raw.githubusercontent.com/hiro0218/shokika.css/main/shokika.min.css)
 
 ## Usage
 
-```css
-@import 'node_modules/shokika.css/shokika.min.css';
+**Import**
+
+```scss
+@import '~shokika.css/shokika.min.css';
 ```
 
-or 
+**HTML**
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/shokika.css@1.0.0/shokika.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/shokika.css@1/shokika.min.css" />
 ```
+
+### Variations
+
+It is available in node_modules directory:
+
+* `shokika.css`: raw CSS file
+* `shokika.min.css`: minified CSS file (recommend using production)
+
+## Support
+
+⚠ Support for modern browsers.
+
+This means that IE11 and other legacy browsers will not be supported.
