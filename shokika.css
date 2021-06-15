@@ -93,6 +93,12 @@ th {
   padding: 0;
 }
 
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
 [tabindex='0'],
 a[href],
 button,
