@@ -85,6 +85,7 @@ button,
 textarea,
 select {
   font: inherit;
+  line-height: 1.2;
 }
 
 iframe {
