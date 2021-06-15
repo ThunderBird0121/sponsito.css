@@ -49,6 +49,15 @@ h6 {
   font-weight: normal;
 }
 
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
 ul {
   list-style: none;
 }
