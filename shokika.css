@@ -58,6 +58,11 @@ small {
   font-size: 80%;
 }
 
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
 ol,
 ul {
   padding: 0;
