@@ -58,7 +58,9 @@ small {
   font-size: 80%;
 }
 
+ol,
 ul {
+  padding: 0;
   list-style: none;
 }
 
