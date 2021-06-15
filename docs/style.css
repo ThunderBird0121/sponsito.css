@@ -1,0 +1,53 @@
+:root {
+  --spacing: 8px;
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 5vh auto;
+  padding: 0 5vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:  calc(var(--spacing) * 25);
+  margin-bottom: calc(var(--spacing) * 5);
+  text-align: center;
+}
+
+.header__heading {
+  font-family: var(--font-family);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content {
+  margin-bottom: calc(var(--spacing) * 6);
+}
+
+.content__heading {
+  margin-bottom: calc(var(--spacing) * 2);
+  font-family: var(--font-family);
+  font-size: 1.85rem;
+  font-weight: bold;
+}
+
+.content__sub-heading {
+  margin-bottom: calc(var(--spacing) * 1.5);
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+}
+
+.playground {
+  margin-bottom: calc(var(--spacing) * 3);
+  padding: calc(var(--spacing) * 3);
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: calc(var(--spacing) * 0.5);
+}
+
+.playground__item:not(:first-child) {
+  margin-top: calc(var(--spacing) * 1.5);
+}

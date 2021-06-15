@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shokika.css</title>
+    <link rel="stylesheet" href="https://unpkg.com/shokika.css@1/shokika.css" />
+    <link rel="stylesheet" href="develop.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="header__heading">shokika.css</h1>
+      </header>
+
+      <section class="content">
+        <h1 class="content__heading">Text</h1>
+
+        <h2 class="content__sub-heading">Headings</h2>
+        <div class="playground">
+          <h1>heading 1</h1>
+          <h2>heading 2</h2>
+          <h3>heading 3</h3>
+          <h4>heading 4</h4>
+          <h5>heading 5</h5>
+          <h6>heading 6</h6>
+        </div>
+
+        <h2 class="content__sub-heading">Paragraph</h2>
+        <div class="playground">
+          <p>
+            The <code>&lt;p&gt;</code> HTML element represents a paragraph.
+            Paragraphs are usually represented in visual media as blocks of text
+            separated from adjacent blocks by blank lines and/or first-line
+            indentation, but HTML paragraphs can be any structural grouping of
+            related content, such as images or form fields.
+          </p>
+        </div>
+
+        <h2 class="content__sub-heading">List</h2>
+        <div class="playground">
+          <div class="playground__item">
+            <ul>
+              <li>unordered list</li>
+              <li>unordered list</li>
+              <li>unordered list</li>
+            </ul>
+          </div>
+          <div class="playground__item">
+            <ol>
+              <li>ordered list</li>
+              <li>ordered list</li>
+              <li>ordered list</li>
+            </ol>
+          </div>
+        </div>
+
+        <h2 class="content__sub-heading">Blockquote</h2>
+        <div class="playground">
+          <blockquote>
+            Our mission is to make cloud computing accessible to everyone.
+          </blockquote>
+        </div>
+
+        <h2 class="content__sub-heading">Preformatted Text (Code Block)</h2>
+        <div class="playground">
+          <pre><code>npm install --save-dev shokika.css</code></pre>
+        </div>
+
+        <h2 class="content__sub-heading">Description List</h2>
+        <div class="playground">
+          <dl>
+            <dt>Beast of Bodmin</dt>
+            <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+            <dt>Morgawr</dt>
+            <dd>A sea serpent.</dd>
+
+            <dt>Owlman</dt>
+            <dd>A giant owl-like creature.</dd>
+          </dl>
+        </div>
+
+        <h2 class="content__sub-heading">Horizontal Rule</h2>
+        <div class="playground">
+          <p>This is the first paragraph of text.</p>
+          <hr />
+          <p>This is the second paragraph of text.</p>
+        </div>
+      </section>
+
+      <section class="content">
+        <h1 class="content__heading">Inline</h1>
+
+        <div class="playground">
+          <div class="playground__item">
+            This is <a href="#">Anchor Link.</a>.
+          </div>
+          <div class="playground__item">
+            Several species of <mark>salamander</mark> inhabit the temperate
+            rainforest of the Pacific Northwest.
+          </div>
+          <div class="playground__item">
+            <s
+              >There will be a few tickets available at the box office
+              tonight.</s
+            >
+          </div>
+          <div class="playground__item">
+            You could use this element to highlight <u>speling</u> mistakes, so
+            the writer can <u>corect</u> them.
+          </div>
+          <div class="playground__item">
+            <small
+              >This line of text is meant to be treated as fine print.</small
+            >
+          </div>
+          <div class="playground__item">
+            ... the most important rule, the rule you can never forget, no
+            matter how much he cries, no matter how much he begs:
+            <strong>never feed him after midnight</strong>.
+          </div>
+          <div class="playground__item">Get out of bed <em>now</em>!</div>
+          <div class="playground__item">
+            You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style
+            your <abbr title="HyperText Markup Language">HTML</abbr>.
+          </div>
+          <div class="playground__item">
+            <samp>Keyboard not found, Press F1 to continue</samp>
+          </div>
+          <div class="playground__item">
+            Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to
+            re-render an MDN page.
+          </div>
+          <div class="playground__item">
+            Run <code>npm install --save-dev shokika.css</code> to install.
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <h1 class="content__heading">Form</h1>
+
+        <h2 class="content__sub-heading">Button</h2>
+        <div class="playground">
+          <button type="button">Button</button>
+          <button type="button" disabled>Button Disabled</button>
+        </div>
+
+        <h2 class="content__sub-heading">Input</h2>
+        <div class="playground">
+          <div class="playground__item">
+            <input type="text" placeholder="Text" />
+            <input type="text" placeholder="Disabled" disabled />
+            <input type="text" readonly value="Readonly" />
+          </div>
+          <div class="playground__item">
+            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Disabled" disabled />
+            <input type="password" readonly value="Readonly" />
+          </div>
+          <div class="playground__item">
+            <input type="search" placeholder="Search" />
+            <input type="search" placeholder="Disabled" disabled />
+            <input type="search" readonly value="Readonly" />
+          </div>
+        </div>
+
+        <h2 class="content__sub-heading">Checkbox</h2>
+        <div class="playground">
+          <label
+            ><input type="checkbox" />
+            <span>One Fuji</span>
+          </label>
+          <label
+            ><input type="checkbox" checked /> <span>Two eagles</span></label
+          >
+          <label
+            ><input type="checkbox" disabled />
+            <span>Three eggplants</span></label
+          >
+        </div>
+
+        <h2 class="content__sub-heading">Radio</h2>
+        <div class="playground">
+          <label>
+            <input type="radio" name="radio-1" checked />
+            <span>One Fuji</span>
+          </label>
+          <label>
+            <input type="radio" name="radio-1" />
+            <span>Two eagles</span>
+          </label>
+          <label>
+            <input type="radio" name="radio-1" disabled />
+            <span>Three eggplants</span>
+          </label>
+        </div>
+
+        <h2 class="content__sub-heading">Textarea</h2>
+        <div class="playground">
+          <textarea></textarea>
+          <textarea disabled></textarea>
+        </div>
+
+        <h2 class="content__sub-heading">Select</h2>
+        <div class="playground">
+          <div class="playground__item">
+            <select>
+              <option>One Fuji</option>
+              <option>Two eagles</option>
+              <option>Three eggplants</option>
+            </select>
+
+            <select disabled>
+              <option>One Fuji</option>
+              <option>Two eagles</option>
+              <option>Three eggplants</option>
+            </select>
+          </div>
+
+          <div class="playground__item">
+            <select multiple>
+              <option>One Fuji</option>
+              <option>Two eagles</option>
+              <option>Three eggplants</option>
+            </select>
+
+            <select multiple disabled>
+              <option>One Fuji</option>
+              <option>Two eagles</option>
+              <option>Three eggplants</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <h1 class="content__heading">Other Elements</h1>
+
+        <h2 class="content__sub-heading">Table</h2>
+        <div class="playground">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="2">The table header</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>The table body</td>
+                <td>with two columns</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="content__sub-heading">Details</h2>
+        <div class="playground">
+          <details>
+            <summary>Summary</summary>
+            <p>Paragraph</p>
+          </details>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
