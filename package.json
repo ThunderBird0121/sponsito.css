@@ -4,6 +4,8 @@
   "description": "A lightly modern reset CSS.",
   "main": "shokika.css",
   "scripts": {
+    "dev": "minista",
+    "build": "minista build",
     "min": "postcss shokika.css > shokika.min.css",
     "prepublish": "npm run min"
   },
@@ -30,6 +32,7 @@
   ],
   "devDependencies": {
     "cssnano": "^5.0.6",
+    "minista": "^0.7.9",
     "postcss": "^8.3.2",
     "postcss-cli": "^8.3.1",
     "stylelint": "^13.13.1",
