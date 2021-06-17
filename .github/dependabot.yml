@@ -9,7 +9,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    automerged_updates:
+    allowed_updates:
       - match:
-          dependency_type: all
-          update_type: semver:minor
+          update_type: "security"
