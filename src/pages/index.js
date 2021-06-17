@@ -13,8 +13,6 @@ const Home = () => {
   return render(
     <>
       <Helmet>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>shokika.css - A lightly modern reset CSS.</title>
         <meta
           name="description"
