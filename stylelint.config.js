@@ -37,5 +37,11 @@ module.exports = {
     "no-extra-semicolons": true,
     "no-missing-end-of-source-newline": true,
     "at-rule-no-unknown": [true, { ignoreAtRules: ["extend"] }],
+    "font-family-no-duplicate-names": [
+      true,
+      {
+        ignoreFontFamilyNames: ["monospace"],
+      },
+    ],
   },
 };
