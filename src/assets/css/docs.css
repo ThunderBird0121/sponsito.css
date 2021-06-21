@@ -44,10 +44,16 @@
 }
 
 .header-guide {
+  display: flex;
   margin-top: calc(var(--spacing) * 8);
 }
 
-.header-guide__button {
+.header-guide__item:not(:first-child) {
+  margin-left: calc(var(--spacing) * 1.5);
+}
+
+.header-guide__button,
+.header-guide__button--github {
   display: block;
   padding: 1.25em 1.75em;
   transition: background 0.2s ease;
@@ -63,6 +69,13 @@
   background-color: var(--color-accents-5);
 }
 
+.header-guide__button--github {
+  background-color: var(--color-accents-6);
+}
+
+.header-guide__button--github:hover {
+  background-color: var(--color-accents-8);
+}
 
 .section-heading {
   margin-bottom: calc(var(--spacing) * 4);

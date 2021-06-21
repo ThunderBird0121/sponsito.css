@@ -11,6 +11,15 @@ const TheHeader = () => {
             GET STARTED
           </a>
         </div>
+        <div class="header-guide__item">
+          <a
+            href="https://github.com/hiro0218/shokika.css"
+            class="header-guide__button--github"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </div>
       </div>
     </header>
   );
