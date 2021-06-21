@@ -3,11 +3,8 @@ import { Helmet } from "react-helmet";
 import { render } from "minista";
 
 import TheHeader from "../components/TheHeader";
-import LayoutContent from "../components/LayoutContent";
-import Text from "../components/Text";
-import Inline from "../components/Inline";
-import Form from "../components/Form";
-import Other from "../components/Other";
+import TheMain from "../components/TheMain";
+import TheFooter from "../components/TheFooter";
 
 const Home = () => {
   return render(
@@ -43,25 +40,9 @@ const Home = () => {
           href="https://unpkg.com/shokika.css@1/shokika.css"
         />
       </Helmet>
-      <main class="container">
-        <TheHeader />
-
-        <LayoutContent>
-          <Text />
-        </LayoutContent>
-
-        <LayoutContent>
-          <Inline />
-        </LayoutContent>
-
-        <LayoutContent>
-          <Form />
-        </LayoutContent>
-
-        <LayoutContent>
-          <Other />
-        </LayoutContent>
-      </main>
+      <TheHeader />
+      <TheMain />
+      <TheFooter />
     </>
   );
 };
