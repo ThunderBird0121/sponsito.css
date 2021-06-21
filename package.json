@@ -10,7 +10,7 @@
     "build": "publicPath=/shokika.css minista build",
     "build:css": "postcss ./src/shokika.css > ./dist/shokika.css",
     "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
-    "clean": "rimraf dist",
+    "clean": "rimraf dist/*.css",
     "prepare": "npm run clean && npm run build:css && npm run build:css:min"
   },
   "repository": {
