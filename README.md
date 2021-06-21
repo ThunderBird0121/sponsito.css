@@ -22,10 +22,8 @@ yarn add shokika.css
 
 **CDN**
 ```
-https://unpkg.com/shokika.css@1/shokika.min.css
+https://unpkg.com/shokika.css@latest/dist/shokika.min.css
 ```
-
-or [Download the latest version](https://raw.githubusercontent.com/hiro0218/shokika.css/main/shokika.min.css)
 
 ## Usage
 
