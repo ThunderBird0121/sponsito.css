@@ -1,7 +1,5 @@
-module.exports = {
-  plugins: [
-    require("cssnano")({
-      preset: "default",
-    }),
-  ],
-};
+module.exports = (ctx) => ({
+  plugins: {
+    cssnano: ctx.env === "production" ? { preset: "default" } : false,
+  },
+});

@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "minista",
     "build": "publicPath=/shokika.css minista build",
-    "min": "postcss shokika.css > shokika.min.css",
-    "prepublish": "npm run min"
+    "build:css": "postcss --env production shokika.css > shokika.min.css",
+    "prepublish": "npm run build:css"
   },
   "repository": {
     "type": "git",
