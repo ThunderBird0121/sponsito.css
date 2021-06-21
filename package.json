@@ -2,12 +2,15 @@
   "name": "shokika.css",
   "version": "1.2.0",
   "description": "A lightly modern reset CSS.",
-  "main": "shokika.css",
+  "main": "dist/shokika.css",
+  "cdn": "dist/shokika.css",
+  "cdn:min": "dist/shokika.min.css",
   "scripts": {
     "dev": "minista",
     "build": "publicPath=/shokika.css minista build",
-    "build:css": "postcss --env production shokika.css > shokika.min.css",
-    "prepublish": "npm run build:css"
+    "build:css": "postcss ./src/shokika.css > ./dist/shokika.css",
+    "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
+    "prepublish": "npm run build:css && npm run build:css:min"
   },
   "repository": {
     "type": "git",
@@ -27,8 +30,8 @@
   "homepage": "https://github.com/hiro0218/shokika.css#readme",
   "files": [
     "LICENSE",
-    "shokika.css",
-    "shokika.min.css"
+    "dist/shokika.css",
+    "dist/shokika.min.css"
   ],
   "devDependencies": {
     "cssnano": "^5.0.6",

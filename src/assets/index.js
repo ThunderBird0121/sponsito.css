@@ -1,2 +1,2 @@
-import "./css/style.css";
-import "./css/develop.css";
+import "../shokika.css";
+import "./css/docs.css";

@@ -35,10 +35,6 @@ const Home = () => {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@hiro0218" />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/shokika.css@1/shokika.css"
-        />
       </Helmet>
       <TheHeader />
       <TheMain />
