@@ -10,7 +10,8 @@
     "build": "publicPath=/shokika.css minista build",
     "build:css": "postcss ./src/shokika.css > ./dist/shokika.css",
     "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
-    "prepublish": "npm run build:css && npm run build:css:min"
+    "clean": "rimraf dist",
+    "prepublish": "npm run clean && npm run build:css && npm run build:css:min"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
     "postcss": "^8.3.5",
     "postcss-banner": "^4.0.1",
     "postcss-cli": "^8.3.1",
+    "rimraf": "^3.0.2",
     "stylelint": "^13.13.1",
     "stylelint-config-property-sort-order-smacss": "^7.1.0",
     "stylelint-config-recommended": "^5.0.0",
