@@ -30,13 +30,13 @@ https://unpkg.com/shokika.css@latest/dist/shokika.min.css
 **Import**
 
 ```scss
-@import '~shokika.css/shokika.min.css';
+@import '~shokika.css';
 ```
 
 **HTML**
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/shokika.css@1/shokika.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/shokika.css@latest/dist/shokika.min.css" />
 ```
 
 ### Variations
