@@ -24,7 +24,9 @@ const TheMain = () => {
           <LayoutContent>
             <h2 class="content__heading">CDN</h2>
             <pre class="install-conent__preformatted">
-              <code>https://unpkg.com/shokika.css@1/shokika.min.css</code>
+              <code>
+                https://unpkg.com/shokika.css@latest/dist/shokika.min.css
+              </code>
             </pre>
           </LayoutContent>
         </div>
