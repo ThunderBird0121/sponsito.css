@@ -8,7 +8,7 @@ const TheHeader = () => {
       <div class="header-guide">
         <div class="header-guide__item">
           <a href="#example" class="header-guide__button">
-            GET STARTED
+            Get started
           </a>
         </div>
         <div class="header-guide__item">
