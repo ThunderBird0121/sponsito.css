@@ -4,6 +4,7 @@ import LayoutContent from "../components/LayoutContent";
 import Text from "../components/Text";
 import Inline from "../components/Inline";
 import Form from "../components/Form";
+import Image from "../components/Image";
 import Other from "../components/Other";
 
 const TheMain = () => {
@@ -47,6 +48,10 @@ const TheMain = () => {
 
           <LayoutContent>
             <Form />
+          </LayoutContent>
+
+          <LayoutContent>
+            <Image />
           </LayoutContent>
 
           <LayoutContent>
