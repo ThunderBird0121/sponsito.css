@@ -22,6 +22,30 @@ const Form = () => {
         <div class="playground__item">
           <div class="content-list">
             <div class="content-list__item">
+              <button type="submit">Submit</button>
+            </div>
+            <div class="content-list__item">
+              <button type="submit" disabled>
+                Submit Disabled
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <button type="reset">Reset</button>
+            </div>
+            <div class="content-list__item">
+              <button type="reset" disabled>
+                Reset Disabled
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
               <input type="button" value="Input Button" />
             </div>
             <div class="content-list__item">
@@ -42,7 +66,12 @@ const Form = () => {
               <input type="text" placeholder="Disabled" disabled />
             </div>
             <div class="content-list__item">
-              <input type="text" readonly value="Readonly" />
+              <input
+                type="text"
+                value="Readonly"
+                placeholder="Readonly"
+                readonly="true"
+              />
             </div>
           </div>
         </div>
@@ -54,9 +83,6 @@ const Form = () => {
             <div class="content-list__item">
               <input type="password" placeholder="Disabled" disabled />
             </div>
-            <div class="content-list__item">
-              <input type="password" readonly value="Readonly" />
-            </div>
           </div>
         </div>
         <div class="playground__item">
@@ -67,8 +93,120 @@ const Form = () => {
             <div class="content-list__item">
               <input type="search" placeholder="Disabled" disabled />
             </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
             <div class="content-list__item">
-              <input type="search" readonly value="Readonly" />
+              <input type="number" placeholder="Number" />
+            </div>
+            <div class="content-list__item">
+              <input type="number" placeholder="Number" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="content-list__item">
+              <input type="email" placeholder="Email" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="url" placeholder="URL" />
+            </div>
+            <div class="content-list__item">
+              <input type="url" placeholder="URL" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="tel" placeholder="Tel" />
+            </div>
+            <div class="content-list__item">
+              <input type="tel" placeholder="Tel" disabled />
+            </div>
+          </div>
+        </div>
+
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input
+                type="datetime-local"
+                placeholder="Datetime Local"
+                value="2021-01-01T10:10:00"
+              />
+            </div>
+            <div class="content-list__item">
+              <input
+                type="datetime-local"
+                placeholder="Datetime Local"
+                value="2021-01-01T10:10:00"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="date" placeholder="Date" value="2021-01-01" />
+            </div>
+            <div class="content-list__item">
+              <input
+                type="date"
+                placeholder="Date"
+                value="2021-01-01"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="time" placeholder="Time" value="10:10:00" />
+            </div>
+            <div class="content-list__item">
+              <input type="time" placeholder="Time" value="10:10:00" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="file" />
+            </div>
+            <div class="content-list__item">
+              <input type="file" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="color" />
+            </div>
+            <div class="content-list__item">
+              <input type="color" disabled />
+            </div>
+          </div>
+        </div>
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <input type="range" />
+            </div>
+            <div class="content-list__item">
+              <input type="range" disabled />
             </div>
           </div>
         </div>
@@ -126,10 +264,10 @@ const Form = () => {
       <div class="playground">
         <div class="content-list">
           <div class="content-list__item">
-            <textarea></textarea>
+            <textarea placeholder="Textarea"></textarea>
           </div>
           <div class="content-list__item">
-            <textarea disabled></textarea>
+            <textarea placeholder="Textarea" disabled></textarea>
           </div>
         </div>
       </div>
@@ -206,6 +344,66 @@ const Form = () => {
             </div>
           </div>
         </div>
+
+        <div class="playground__item">
+          <div class="content-list">
+            <div class="content-list__item">
+              <select multiple>
+                <optgroup label="1st group">
+                  <option>One fuji</option>
+                  <option>Two eagles</option>
+                  <option>Three eggplants</option>
+                </optgroup>
+                <optgroup label="2nd group">
+                  <option>One fuji</option>
+                  <option>Two eagles</option>
+                  <option>Three eggplants</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="content-list__item">
+              <select multiple disabled>
+                <optgroup label="1st group">
+                  <option>One fuji</option>
+                  <option>Two eagles</option>
+                  <option>Three eggplants</option>
+                </optgroup>
+                <optgroup label="2nd group">
+                  <option>One fuji</option>
+                  <option>Two eagles</option>
+                  <option>Three eggplants</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="content__sub-heading">Fieldset and Legend</h2>
+      <div class="playground">
+        <fieldset>
+          <legend>Choose your favorite monster</legend>
+          <div class="content-list">
+            <div class="content-list__item">
+              <label>
+                <input type="radio" name="monster" checked />
+                <span> Kraken</span>
+              </label>
+            </div>
+            <div class="content-list__item">
+              <label>
+                <input type="radio" name="monster" />
+                <span> Sasquatch</span>
+              </label>
+            </div>
+            <div class="content-list__item">
+              <label>
+                <input type="radio" name="monster" />
+                <span> Mothman</span>
+              </label>
+            </div>
+          </div>
+        </fieldset>
       </div>
     </>
   );
