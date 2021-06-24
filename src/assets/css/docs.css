@@ -1,6 +1,6 @@
 :root {
   --spacing: 8px;
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-family: 'Inter', sans-serif;
   --color-accents-1: #fafafa;
   --color-accents-2: #eaeaea;
   --color-accents-3: #999;
@@ -29,11 +29,11 @@
   height: calc(var(--spacing) * 40);
   min-height: 100vh;
   margin-bottom: calc(var(--spacing) * 10);
+  font-family: var(--font-family);
 }
 
 .header__heading {
   color: var(--color-accents-7);
-  font-family: var(--font-family);
   font-size: 3rem;
   font-weight: bold;
 }
@@ -45,7 +45,7 @@
 
 .header-guide {
   display: flex;
-  margin-top: calc(var(--spacing) * 8);
+  margin-top: calc(var(--spacing) * 6);
 }
 
 .header-guide__item:not(:first-child) {
@@ -128,7 +128,13 @@
 }
 
 .playground__item:not(:first-child) {
-  margin-top: calc(var(--spacing) * 3);
+  margin-top: calc(var(--spacing) * 2);
+}
+
+@media (max-width: 767px) {
+  .playground__item:not(:first-child) {
+    margin-top: calc(var(--spacing) * 3);
+  }
 }
 
 .content-list {
