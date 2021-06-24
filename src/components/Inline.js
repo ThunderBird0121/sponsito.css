@@ -7,7 +7,7 @@ const Inline = () => {
 
       <div class="playground">
         <div class="playground__item">
-          This is <a href="#">Anchor Link.</a>.
+          This is <a href="#">Anchor Link</a>.
         </div>
         <div class="playground__item">
           Several species of <mark>salamander</mark> inhabit the temperate
