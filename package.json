@@ -7,7 +7,7 @@
   "cdn:min": "dist/shokika.min.css",
   "scripts": {
     "dev": "minista",
-    "build": "publicPath=/shokika.css minista build",
+    "build": "minista build",
     "build:css": "postcss ./src/shokika.css > ./dist/shokika.css",
     "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
     "clean": "rimraf dist/*.css",
@@ -36,7 +36,7 @@
   ],
   "devDependencies": {
     "cssnano": "^5.0.6",
-    "minista": "^0.7.11",
+    "minista": "^0.8.2",
     "postcss": "^8.3.5",
     "postcss-banner": "^4.0.1",
     "postcss-cli": "^8.3.1",
