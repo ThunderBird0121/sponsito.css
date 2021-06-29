@@ -1,5 +1,5 @@
 module.exports = {
   output: {
-    publicPath: "/shokika.css/",
+    publicPath: process.env.NODE_ENV === "production" ? "/shokika.css/" : "/",
   },
 };

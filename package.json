@@ -7,7 +7,7 @@
   "cdn:min": "dist/shokika.min.css",
   "scripts": {
     "dev": "minista",
-    "build": "minista build",
+    "build": "NODE_ENV=production minista build",
     "build:css": "postcss ./src/shokika.css > ./dist/shokika.css",
     "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
     "clean": "rimraf dist/*.css",
