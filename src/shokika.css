@@ -6,7 +6,7 @@
 
 html {
   font-family: sans-serif;
-  line-height: 1.2;
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -91,7 +91,7 @@ button,
 textarea,
 select {
   font: inherit;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 iframe {
