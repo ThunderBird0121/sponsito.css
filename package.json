@@ -44,6 +44,6 @@
     "stylelint": "^13.13.1",
     "stylelint-config-property-sort-order-smacss": "^7.1.0",
     "stylelint-config-recommended": "^5.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.3.0"
+    "stylelint-declaration-block-no-ignored-properties": "^2.4.0"
   }
 }
