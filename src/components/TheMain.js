@@ -14,17 +14,17 @@ const TheMain = () => {
         <h2 class="section-heading" id="installation">
           Installation
         </h2>
-        <div class="install-conent">
+        <div class="install-content">
           <LayoutContent>
             <h2 class="content__heading">npm</h2>
-            <pre class="install-conent__preformatted">
+            <pre class="install-content__preformatted">
               <code>npm install --save-dev shokika.css</code>
             </pre>
           </LayoutContent>
 
           <LayoutContent>
             <h2 class="content__heading">CDN</h2>
-            <pre class="install-conent__preformatted">
+            <pre class="install-content__preformatted">
               <code>
                 https://unpkg.com/shokika.css@latest/dist/shokika.min.css
               </code>

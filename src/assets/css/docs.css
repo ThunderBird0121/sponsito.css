@@ -91,7 +91,7 @@
 }
 
 
-.install-conent__preformatted {
+.install-content__preformatted {
   padding: calc(var(--spacing) * 2);
   overflow: auto;
   border-radius: 6px;
