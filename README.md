@@ -39,6 +39,19 @@ https://unpkg.com/shokika.css@latest/dist/shokika.min.css
 <link rel="stylesheet" href="https://unpkg.com/shokika.css@latest/dist/shokika.min.css" />
 ```
 
+## Usage with "CSS in JS"
+
+```jsx
+import { css, Global } from '@emotion/react';
+import resetCSS from 'shokika.css/dist/string';
+
+const globalStyle = css`
+  ${resetCSS}
+`;
+
+export const CSSReset = () => <Global styles={globalStyle} />;
+```
+
 ### Variations
 
 It is available in node_modules directory:
