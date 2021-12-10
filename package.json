@@ -11,8 +11,9 @@
     "build": "NODE_ENV=production minista build",
     "build:css": "postcss ./src/shokika.css > ./dist/shokika.css",
     "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
-    "postbuild:css": "node ./lib/toString.js",
-    "clean": "rimraf dist/*.css",
+    "build:bundle": "microbundle -i ./dist/string.js -o dist/string.js",
+    "postbuild:css": "node ./lib/toString.js && npm run build:bundle",
+    "clean": "rimraf dist/*.css dist/*.js",
     "prepare": "npm run clean && npm run build:css && npm run build:css:min"
   },
   "repository": {
@@ -33,13 +34,15 @@
   "homepage": "https://github.com/hiro0218/shokika.css#readme",
   "files": [
     "LICENSE",
-    "index.d.ts",
+    "string.d.ts",
     "dist/shokika.css",
     "dist/shokika.min.css",
-    "dist/string.js"
+    "dist/*.js",
+    "dist/*.js.map"
   ],
   "devDependencies": {
     "cssnano": "^5.0.12",
+    "microbundle": "^0.14.2",
     "minista": "^0.10.2",
     "postcss": "^8.4.4",
     "postcss-banner": "^4.0.1",
