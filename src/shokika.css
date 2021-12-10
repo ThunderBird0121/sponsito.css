@@ -1,10 +1,8 @@
-*,
-*::before,
-*::after {
+:where(*, *::before, *::after) {
   box-sizing: border-box;
 }
 
-html {
+:where(html) {
   height: 100%;
   font-family: sans-serif;
   line-height: 1.5;
@@ -12,174 +10,120 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-html:focus-within {
+:where(html:focus-within) {
   scroll-behavior: smooth;
 }
 
-body {
+:where(body) {
   height: 100%;
   text-rendering: optimizeSpeed;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-blockquote,
-dl,
-dd,
-ol,
-ul,
-button,
-input,
-select {
+:where(body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, ol, ul, button, input, select) {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+:where(h1, h2, h3, h4, h5, h6) {
   font-size: 100%;
   font-weight: normal;
 }
 
-b,
-strong {
+:where(b, strong) {
   font-weight: bolder;
 }
 
-small {
+:where(small) {
   font-size: 80%;
 }
 
-abbr[title] {
+:where(ol, ul) {
+  padding: 0;
+  list-style: none;
+}
+
+:where(pre, code, kbd, samp) {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+:where(img, video, picture) {
+  max-width: 100%;
+  height: auto;
+}
+
+:where(input, button, textarea, select) {
+  font: inherit;
+  line-height: 1.5;
+}
+
+:where(iframe) {
+  border: 0;
+}
+
+:where(table) {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+:where(td, th) {
+  padding: 0;
+}
+
+:where(dt) {
+  font-weight: bold;
+}
+
+:where(hr) {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+:where(option) {
+  padding: 0;
+}
+
+:where(button, [type='button'], [type='reset'], [type='submit']) {
+  -webkit-appearance: button;
+}
+
+:where(abbr[title]) {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
   text-decoration-skip-ink: none;
 }
 
-ol,
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-img,
-video,
-picture {
-  max-width: 100%;
-  height: auto;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-  line-height: 1.5;
-}
-
-iframe {
-  border: 0;
-}
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: 0;
-}
-
-dt {
-  font-weight: bold;
-}
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
-
-option {
-  padding: 0;
-}
-
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button;
-}
-
-[type='search'] {
+:where([type='search']) {
   -webkit-appearance: textfield;
 }
 
-[tabindex='0'],
-a[href],
-button,
-[type='button'],
-[type='reset'],
-[type='submit'],
-[role='button'],
-label,
-select,
-summary {
+:where([tabindex='0'], a[href], button, [type='button'], [type='reset'], [type='submit'], [role='button'], label, select, summary) {
   cursor: pointer;
 }
 
-[tabindex='0'],
-a[href],
-button,
-input,
-label,
-select,
-textarea,
-summary {
+:where([tabindex='0'], a[href], button, input, label, select, textarea, summary) {
   touch-action: manipulation;
 }
 
-[aria-busy='true' i] {
+:where([aria-busy='true' i]) {
   cursor: progress;
 }
 
-[aria-controls] {
+:where([aria-controls]) {
   cursor: pointer;
 }
 
-[aria-disabled='true' i],
-[disabled] {
+:where([aria-disabled='true' i], [disabled]) {
   cursor: not-allowed;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
+  :where(html:focus-within) {
     scroll-behavior: auto;
   }
 
-  *,
-  *::before,
-  *::after {
+  :where(*, *::before, *::after) {
     transition-duration: 0s !important;
     transition-delay: 0s !important;
     animation-duration: 0s !important;
