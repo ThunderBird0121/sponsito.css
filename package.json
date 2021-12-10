@@ -5,6 +5,7 @@
   "main": "dist/shokika.css",
   "cdn": "dist/shokika.css",
   "cdn:min": "dist/shokika.min.css",
+  "types": "index.d.ts",
   "scripts": {
     "dev": "minista",
     "build": "NODE_ENV=production minista build",
@@ -32,6 +33,7 @@
   "homepage": "https://github.com/hiro0218/shokika.css#readme",
   "files": [
     "LICENSE",
+    "index.d.ts",
     "dist/shokika.css",
     "dist/shokika.min.css",
     "dist/string.js"
