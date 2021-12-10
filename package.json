@@ -34,7 +34,7 @@
   "homepage": "https://github.com/hiro0218/shokika.css#readme",
   "files": [
     "LICENSE",
-    "string.d.ts",
+    "dist/string.d.ts",
     "dist/shokika.css",
     "dist/shokika.min.css",
     "dist/*.js",
