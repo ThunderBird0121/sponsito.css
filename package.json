@@ -5,7 +5,7 @@
   "main": "dist/shokika.css",
   "cdn": "dist/shokika.css",
   "cdn:min": "dist/shokika.min.css",
-  "types": "string.d.ts",
+  "types": "dist/string.d.ts",
   "scripts": {
     "dev": "minista",
     "build": "NODE_ENV=production minista build",
