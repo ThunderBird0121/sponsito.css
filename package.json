@@ -1,6 +1,6 @@
 {
   "name": "shokika.css",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "A lightly modern reset CSS.",
   "main": "dist/shokika.css",
   "cdn": "dist/shokika.css",
