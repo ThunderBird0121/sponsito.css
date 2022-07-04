@@ -3,10 +3,10 @@ import React from "react";
 const Image = () => {
   return (
     <>
-      <h1 class="content__heading">Image</h1>
+      <h1 className="content__heading">Image</h1>
 
-      <h2 class="content__sub-heading">Basic</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Basic</h2>
+      <div className="playground">
         <img
           src="sample.jpg"
           width="320"
@@ -16,8 +16,8 @@ const Image = () => {
         />
       </div>
 
-      <h2 class="content__sub-heading">figure + figcaption</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">figure + figcaption</h2>
+      <div className="playground">
         <figure>
           <img
             src="sample.jpg"

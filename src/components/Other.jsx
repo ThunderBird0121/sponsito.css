@@ -3,14 +3,14 @@ import React from "react";
 const Other = () => {
   return (
     <>
-      <h1 class="content__heading">Other Elements</h1>
+      <h1 className="content__heading">Other Elements</h1>
 
-      <h2 class="content__sub-heading">Table</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Table</h2>
+      <div className="playground">
         <table>
           <thead>
             <tr>
-              <th colspan="2">The table header</th>
+              <th colSpan="2">The table header</th>
             </tr>
           </thead>
           <tbody>
@@ -22,8 +22,8 @@ const Other = () => {
         </table>
       </div>
 
-      <h2 class="content__sub-heading">Details</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Details</h2>
+      <div className="playground">
         <details>
           <summary>Summary</summary>
           <p>Paragraph</p>

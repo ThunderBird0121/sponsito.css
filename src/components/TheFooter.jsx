@@ -2,7 +2,7 @@ import React from "react";
 
 const TheFooter = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
       created by&nbsp;
       <a href="https://github.com/hiro0218" target="_blank">
         hiro

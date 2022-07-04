@@ -3,10 +3,10 @@ import React from "react";
 const Text = () => {
   return (
     <>
-      <h1 class="content__heading">Text</h1>
+      <h1 className="content__heading">Text</h1>
 
-      <h2 class="content__sub-heading">Headings</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Headings</h2>
+      <div className="playground">
         <h1>heading 1</h1>
         <h2>heading 2</h2>
         <h3>heading 3</h3>
@@ -15,8 +15,8 @@ const Text = () => {
         <h6>heading 6</h6>
       </div>
 
-      <h2 class="content__sub-heading">Paragraph</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Paragraph</h2>
+      <div className="playground">
         <p>
           The <code>&lt;p&gt;</code> HTML element represents a paragraph.
           Paragraphs are usually represented in visual media as blocks of text
@@ -26,16 +26,16 @@ const Text = () => {
         </p>
       </div>
 
-      <h2 class="content__sub-heading">List</h2>
-      <div class="playground">
-        <div class="playground__item">
+      <h2 className="content__sub-heading">List</h2>
+      <div className="playground">
+        <div className="playground__item">
           <ul>
             <li>unordered list</li>
             <li>unordered list</li>
             <li>unordered list</li>
           </ul>
         </div>
-        <div class="playground__item">
+        <div className="playground__item">
           <ol>
             <li>ordered list</li>
             <li>ordered list</li>
@@ -44,22 +44,22 @@ const Text = () => {
         </div>
       </div>
 
-      <h2 class="content__sub-heading">Blockquote</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Blockquote</h2>
+      <div className="playground">
         <blockquote>
           Our mission is to make cloud computing accessible to everyone.
         </blockquote>
       </div>
 
-      <h2 class="content__sub-heading">Preformatted Text (Code Block)</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Preformatted Text (Code Block)</h2>
+      <div className="playground">
         <pre>
           <code>npm install --save-dev shokika.css</code>
         </pre>
       </div>
 
-      <h2 class="content__sub-heading">Description List</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Description List</h2>
+      <div className="playground">
         <dl>
           <dt>Beast of Bodmin</dt>
           <dd>A large feline inhabiting Bodmin Moor.</dd>
@@ -72,8 +72,8 @@ const Text = () => {
         </dl>
       </div>
 
-      <h2 class="content__sub-heading">Horizontal Rule</h2>
-      <div class="playground">
+      <h2 className="content__sub-heading">Horizontal Rule</h2>
+      <div className="playground">
         <p>This is the first paragraph of text.</p>
         <hr />
         <p>This is the second paragraph of text.</p>
