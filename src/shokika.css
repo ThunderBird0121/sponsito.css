@@ -103,11 +103,11 @@
   -webkit-appearance: textfield;
 }
 
-:where([tabindex='0'], a[href], button, [type='button'], [type='reset'], [type='submit'], [role='button'], label, select, summary) {
+:where([tabindex]:not([tabindex*='-']), a[href], button, [type='button'], [type='reset'], [type='submit'], [role='button'], label, select, summary) {
   cursor: pointer;
 }
 
-:where([tabindex='0'], a[href], button, input, label, select, textarea, summary) {
+:where([tabindex]:not([tabindex*='-']), a[href], button, input, label, select, textarea, summary) {
   touch-action: manipulation;
 }
 
@@ -137,4 +137,3 @@
     scroll-behavior: auto !important;
   }
 }
-
