@@ -13,6 +13,7 @@
     "build:css:min": "postcss --env production ./src/shokika.css > ./dist/shokika.min.css",
     "build:bundle": "microbundle -i ./dist/string.js -o dist/string.js",
     "postbuild:css": "node ./lib/toString.js && npm run build:bundle",
+    "preview": "minista preview",
     "clean": "rimraf dist/*.css dist/*.js",
     "prepare": "npm run clean && npm run build:css && npm run build:css:min"
   },
@@ -43,7 +44,7 @@
   "devDependencies": {
     "cssnano": "^5.1.12",
     "microbundle": "^0.15.0",
-    "minista": "^0.10.2",
+    "minista": "^2.8.2",
     "postcss": "^8.4.14",
     "postcss-banner": "^4.0.1",
     "postcss-cli": "^10.0.0",

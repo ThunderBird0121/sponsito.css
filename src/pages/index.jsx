@@ -2,6 +2,9 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { render } from "minista";
 
+import "../shokika.css";
+import "../assets/css/docs.css";
+
 import TheHeader from "../components/TheHeader";
 import TheMain from "../components/TheMain";
 import TheFooter from "../components/TheFooter";
