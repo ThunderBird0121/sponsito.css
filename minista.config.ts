@@ -102,7 +102,7 @@ export default defineConfig({
     },
   },
   beautify: {
-    useHtml: true, // boolean
+    useHtml: false, // boolean
     useAssets: false, // boolean
     htmlOptions: {
       indent_size: 2,
