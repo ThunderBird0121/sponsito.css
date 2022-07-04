@@ -1,24 +1,24 @@
-import { defineConfig } from "minista"
+import { defineConfig } from 'minista';
 
 export default defineConfig({
-  base: "/shokika.css/", // string
+  base: '/shokika.css/', // string
   // Absolute URL pathname, e.g. "/foo/"
   // Full URL, e.g. "https://foo.com/"
   // Empty string or "./" (for embedded deployment)
   // https://ja.vitejs.dev/config/shared-options.html#base
-  public: "public", // string
-  out: "dist", // string
+  public: 'public', // string
+  out: 'dist', // string
   root: {
-    srcDir: "src", // string
-    srcName: "root", // string
-    srcExt: ["tsx", "jsx"], // string[]
+    srcDir: 'src', // string
+    srcName: 'root', // string
+    srcExt: ['tsx', 'jsx'], // string[]
   },
   pages: {
-    srcDir: "src/pages", // string
-    srcExt: ["tsx", "jsx", "md", "mdx"], // string[]
+    srcDir: 'src/pages', // string
+    srcExt: ['tsx', 'jsx', 'md', 'mdx'], // string[]
   },
   assets: {
-    entry: "",
+    entry: '',
     // | string
     // | string[]
     // | { [key: string]: string }
@@ -27,51 +27,51 @@ export default defineConfig({
     //      input: string
     //      insertPages: string | string[] | { include: string[]; exclude?: string[] }
     //   }[]
-    outDir: "assets", // string
-    outName: "[name]", // string
+    outDir: 'assets', // string
+    outName: '[name]', // string
     bundle: {
-      outName: "bundle", // string
+      outName: 'bundle', // string
     },
     partial: {
       useSplitPerPage: false, // boolean
       usePreact: false, // boolean
       useIntersectionObserver: true, // boolean
-      outName: "partial", // string
-      rootAttrSuffix: "partial-hydration", // string
-      rootValuePrefix: "ph", // string
-      rootDOMElement: "div", // "div" | "span"
-      rootStyle: { display: "contents" }, // React.CSSProperties
+      outName: 'partial', // string
+      rootAttrSuffix: 'partial-hydration', // string
+      rootValuePrefix: 'ph', // string
+      rootDOMElement: 'div', // "div" | "span"
+      rootStyle: { display: 'contents' }, // React.CSSProperties
       intersectionObserverOptions: {
         root: null, // Element | null
-        rootMargin: "0px", // string
+        rootMargin: '0px', // string
         thresholds: [1], // ReadonlyArray<number>
       },
     },
     images: {
-      outDir: "assets/images", // string
-      outName: "[name]", // string
+      outDir: 'assets/images', // string
+      outName: '[name]', // string
     },
     fonts: {
-      outDir: "assets/fonts", // string
-      outName: "[name]", // string
+      outDir: 'assets/fonts', // string
+      outName: '[name]', // string
     },
     svgr: {
       svgrOptions: {}, // https://react-svgr.com/docs/options/
     },
     icons: {
       useSprite: true, // boolean
-      srcDir: "src/assets/icons", // string
-      outDir: "assets/images", // string
-      outName: "icons", // string
+      srcDir: 'src/assets/icons', // string
+      outDir: 'assets/images', // string
+      outName: 'icons', // string
       svgstoreOptions: {
-        cleanSymbols: ["fill", "stroke", "stroke-linejoin", "stroke-width"],
+        cleanSymbols: ['fill', 'stroke', 'stroke-linejoin', 'stroke-width'],
       }, // https://github.com/svgstore/svgstore#svgstore-options
     },
     download: {
       useRemote: false, // boolean
-      remoteUrl: ["https://", "http://"], // string[]
-      remoteName: "remote-[index]", // string
-      outDir: "assets/images", // string
+      remoteUrl: ['https://', 'http://'], // string[]
+      remoteName: 'remote-[index]', // string
+      outDir: 'assets/images', // string
     },
   },
   vite: {}, // https://ja.vitejs.dev/config/
@@ -81,11 +81,11 @@ export default defineConfig({
   css: {
     modules: {
       cache: true,
-      scopeBehaviour: "local",
+      scopeBehaviour: 'local',
       globalModulePaths: [],
       generateScopedName: undefined,
-      hashPrefix: "",
-      localsConvention: "camelCaseOnly",
+      hashPrefix: '',
+      localsConvention: 'camelCaseOnly',
     }, // https://ja.vitejs.dev/config/#css-modules
     preprocessorOptions: {
       scss: {},
@@ -94,7 +94,7 @@ export default defineConfig({
     }, // https://ja.vitejs.dev/config/#css-preprocessoroptions
   },
   markdown: {
-    syntaxHighlighter: "highlight", // "highlight" | "none"
+    syntaxHighlighter: 'highlight', // "highlight" | "none"
     highlightOptions: {}, // https://github.com/rehypejs/rehype-highlight#options
     mdxOptions: {
       remarkPlugins: [], // https://mdxjs.com/packages/mdx/#optionsremarkplugins
@@ -109,9 +109,9 @@ export default defineConfig({
       max_preserve_newlines: 0,
       indent_inner_html: true,
       extra_liners: [],
-      inline: ["span", "strong", "b", "small", "del", "s", "code", "br", "wbr"],
+      inline: ['span', 'strong', 'b', 'small', 'del', 's', 'code', 'br', 'wbr'],
     }, // https://github.com/beautify-web/js-beautify#css--html
     cssOptions: {}, // https://github.com/beautify-web/js-beautify#css--html
     jsOptions: {}, // https://github.com/beautify-web/js-beautify#options
   },
-})
+});
