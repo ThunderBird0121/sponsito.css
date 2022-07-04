@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import LayoutContent from "../components/LayoutContent";
-import Text from "../components/Text";
-import Inline from "../components/Inline";
-import Form from "../components/Form";
-import Image from "../components/Image";
-import Other from "../components/Other";
+import LayoutContent from '../components/LayoutContent';
+import Text from '../components/Text';
+import Inline from '../components/Inline';
+import Form from '../components/Form';
+import Image from '../components/Image';
+import Other from '../components/Other';
 
 const TheMain = () => {
   return (
