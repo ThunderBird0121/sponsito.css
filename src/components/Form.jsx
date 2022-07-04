@@ -70,7 +70,7 @@ const Form = () => {
                 type="text"
                 value="Readonly"
                 placeholder="Readonly"
-                readonly="true"
+                readOnly="true"
               />
             </div>
           </div>
