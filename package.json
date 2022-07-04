@@ -49,7 +49,7 @@
     "cssnano": "^5.1.12",
     "eslint": "^8.19.0",
     "eslint-plugin-react": "^7.30.1",
-    "husky": "^6.0.0",
+    "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "microbundle": "^0.15.0",
     "minista": "^2.8.2",
