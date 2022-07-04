@@ -164,30 +164,30 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <input type="file" />
+              <input type="file" aria-label="input type[file] sample" />
             </div>
             <div className="content-list__item">
-              <input type="file" disabled />
-            </div>
-          </div>
-        </div>
-        <div className="playground__item">
-          <div className="content-list">
-            <div className="content-list__item">
-              <input type="color" />
-            </div>
-            <div className="content-list__item">
-              <input type="color" disabled />
+              <input type="file" aria-label="input type[file] sample" disabled />
             </div>
           </div>
         </div>
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <input type="range" />
+              <input type="color" aria-label="input type[color] sample" />
             </div>
             <div className="content-list__item">
-              <input type="range" disabled />
+              <input type="color" aria-label="input type[color] sample" disabled />
+            </div>
+          </div>
+        </div>
+        <div className="playground__item">
+          <div className="content-list">
+            <div className="content-list__item">
+              <input type="range" aria-label="input type[range] sample" />
+            </div>
+            <div className="content-list__item">
+              <input type="range" aria-label="input type[range] sample" disabled />
             </div>
           </div>
         </div>
@@ -258,33 +258,14 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <select>
+              <select aria-label="select sample">
                 <option>One fuji</option>
                 <option>Two eagles</option>
                 <option>Three eggplants</option>
               </select>
             </div>
             <div className="content-list__item">
-              <select disabled>
-                <option>One fuji</option>
-                <option>Two eagles</option>
-                <option>Three eggplants</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <div className="playground__item">
-          <div className="content-list">
-            <div className="content-list__item">
-              <select multiple>
-                <option>One fuji</option>
-                <option>Two eagles</option>
-                <option>Three eggplants</option>
-              </select>
-            </div>
-            <div className="content-list__item">
-              <select multiple disabled>
+              <select aria-label="select sample" disabled>
                 <option>One fuji</option>
                 <option>Two eagles</option>
                 <option>Three eggplants</option>
@@ -296,7 +277,26 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <select>
+              <select aria-label="select sample" multiple>
+                <option>One fuji</option>
+                <option>Two eagles</option>
+                <option>Three eggplants</option>
+              </select>
+            </div>
+            <div className="content-list__item">
+              <select aria-label="select sample" multiple disabled>
+                <option>One fuji</option>
+                <option>Two eagles</option>
+                <option>Three eggplants</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div className="playground__item">
+          <div className="content-list">
+            <div className="content-list__item">
+              <select aria-label="select sample">
                 <optgroup label="1st group">
                   <option>One fuji</option>
                   <option>Two eagles</option>
@@ -310,7 +310,7 @@ const Form = () => {
               </select>
             </div>
             <div className="content-list__item">
-              <select disabled>
+              <select aria-label="select sample" disabled>
                 <optgroup label="1st group">
                   <option>One fuji</option>
                   <option>Two eagles</option>
@@ -329,7 +329,7 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <select multiple>
+              <select aria-label="select sample" multiple>
                 <optgroup label="1st group">
                   <option>One fuji</option>
                   <option>Two eagles</option>
@@ -343,7 +343,7 @@ const Form = () => {
               </select>
             </div>
             <div className="content-list__item">
-              <select multiple disabled>
+              <select aria-label="select sample" aria-disabled="true" multiple disabled>
                 <optgroup label="1st group">
                   <option>One fuji</option>
                   <option>Two eagles</option>
