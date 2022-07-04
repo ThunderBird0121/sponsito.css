@@ -18,11 +18,9 @@ const Text = () => {
       <h2 className="content__sub-heading">Paragraph</h2>
       <div className="playground">
         <p>
-          The <code>&lt;p&gt;</code> HTML element represents a paragraph.
-          Paragraphs are usually represented in visual media as blocks of text
-          separated from adjacent blocks by blank lines and/or first-line
-          indentation, but HTML paragraphs can be any structural grouping of
-          related content, such as images or form fields.
+          The <code>&lt;p&gt;</code> HTML element represents a paragraph. Paragraphs are usually represented in visual
+          media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML
+          paragraphs can be any structural grouping of related content, such as images or form fields.
         </p>
       </div>
 
@@ -46,9 +44,7 @@ const Text = () => {
 
       <h2 className="content__sub-heading">Blockquote</h2>
       <div className="playground">
-        <blockquote>
-          Our mission is to make cloud computing accessible to everyone.
-        </blockquote>
+        <blockquote>Our mission is to make cloud computing accessible to everyone.</blockquote>
       </div>
 
       <h2 className="content__sub-heading">Preformatted Text (Code Block)</h2>

@@ -15,7 +15,8 @@ const TheHeader = () => {
           <a
             href="https://github.com/hiro0218/shokika.css"
             className="header-guide__button--github"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import LayoutContent from '../components/LayoutContent';
-import Text from '../components/Text';
-import Inline from '../components/Inline';
-import Form from '../components/Form';
-import Image from '../components/Image';
-import Other from '../components/Other';
+import LayoutContent from './LayoutContent';
+import Text from './Text';
+import Inline from './Inline';
+import Form from './Form';
+import Image from './Image';
+import Other from './Other';
 
 const TheMain = () => {
   return (
@@ -25,9 +25,7 @@ const TheMain = () => {
           <LayoutContent>
             <h2 className="content__heading">CDN</h2>
             <pre className="install-content__preformatted">
-              <code>
-                https://unpkg.com/shokika.css@latest/dist/shokika.min.css
-              </code>
+              <code>https://unpkg.com/shokika.css@latest/dist/shokika.min.css</code>
             </pre>
           </LayoutContent>
         </div>

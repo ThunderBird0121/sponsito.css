@@ -66,12 +66,7 @@ const Form = () => {
               <input type="text" placeholder="Disabled" disabled />
             </div>
             <div className="content-list__item">
-              <input
-                type="text"
-                defaultValue="Readonly"
-                placeholder="Readonly"
-                readOnly
-              />
+              <input type="text" defaultValue="Readonly" placeholder="Readonly" readOnly />
             </div>
           </div>
         </div>
@@ -139,19 +134,10 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <input
-                type="datetime-local"
-                placeholder="Datetime Local"
-                defaultValue="2021-01-01T10:10:00"
-              />
+              <input type="datetime-local" placeholder="Datetime Local" defaultValue="2021-01-01T10:10:00" />
             </div>
             <div className="content-list__item">
-              <input
-                type="datetime-local"
-                placeholder="Datetime Local"
-                defaultValue="2021-01-01T10:10:00"
-                disabled
-              />
+              <input type="datetime-local" placeholder="Datetime Local" defaultValue="2021-01-01T10:10:00" disabled />
             </div>
           </div>
         </div>
@@ -161,12 +147,7 @@ const Form = () => {
               <input type="date" placeholder="Date" defaultValue="2021-01-01" />
             </div>
             <div className="content-list__item">
-              <input
-                type="date"
-                placeholder="Date"
-                defaultValue="2021-01-01"
-                disabled
-              />
+              <input type="date" placeholder="Date" defaultValue="2021-01-01" disabled />
             </div>
           </div>
         </div>
