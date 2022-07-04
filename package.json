@@ -51,9 +51,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.8.2",
-    "stylelint-config-property-sort-order-smacss": "^7.1.0",
-    "stylelint-config-recommended": "^7.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.4.0"
+    "stylelint": "^14.9.1",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "stylelint-config-recommended": "^8.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0"
   }
 }
