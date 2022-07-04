@@ -35,12 +35,12 @@
 .header__heading {
   color: var(--color-accents-7);
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .header__sub {
   margin-top: calc(var(--spacing) * 2);
-  color: var(--color-accents-4);
+  color: var(--color-accents-5);
 }
 
 .header-guide {
@@ -55,18 +55,18 @@
 .header-guide__button,
 .header-guide__button--github {
   display: block;
-  padding: 1.25em 1.75em;
-  transition: background 0.2s ease;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.2s ease;
   border-radius: 4px;
-  background-color: var(--color-accents-4);
+  background-color: var(--color-accents-5);
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.025em;
   text-decoration: none;
 }
 
 .header-guide__button:hover {
-  background-color: var(--color-accents-5);
+  background-color: var(--color-accents-6);
 }
 
 .header-guide__button--github {
@@ -82,7 +82,7 @@
   color: var(--color-accents-7);
   font-family: var(--font-family);
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -90,9 +90,8 @@
   margin-bottom: calc(var(--spacing) * 15);
 }
 
-
 .install-content__preformatted {
-  padding: calc(var(--spacing) * 2);
+  padding: 1rem 1.5rem;
   overflow: auto;
   border-radius: 6px;
   background-color: var(--color-accents-2);
@@ -110,7 +109,7 @@
   color: var(--color-accents-7);
   font-family: var(--font-family);
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .content__sub-heading {
@@ -122,7 +121,7 @@
 
 .playground {
   margin-bottom: calc(var(--spacing) * 3);
-  padding: calc(var(--spacing) * 3);
+  padding: 1.5rem;
   border: 1px solid var(--color-accents-2);
   border-radius: calc(var(--spacing) * 0.5);
 }
