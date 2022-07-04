@@ -46,10 +46,10 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <input type="button" value="Input Button" />
+              <input type="button" defaultValue="Input Button" />
             </div>
             <div className="content-list__item">
-              <input type="button" value="Input Button Disabled" disabled />
+              <input type="button" defaultValue="Input Button Disabled" disabled />
             </div>
           </div>
         </div>
@@ -68,9 +68,9 @@ const Form = () => {
             <div className="content-list__item">
               <input
                 type="text"
-                value="Readonly"
+                defaultValue="Readonly"
                 placeholder="Readonly"
-                readOnly="true"
+                readOnly
               />
             </div>
           </div>
@@ -142,14 +142,14 @@ const Form = () => {
               <input
                 type="datetime-local"
                 placeholder="Datetime Local"
-                value="2021-01-01T10:10:00"
+                defaultValue="2021-01-01T10:10:00"
               />
             </div>
             <div className="content-list__item">
               <input
                 type="datetime-local"
                 placeholder="Datetime Local"
-                value="2021-01-01T10:10:00"
+                defaultValue="2021-01-01T10:10:00"
                 disabled
               />
             </div>
@@ -158,13 +158,13 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <input type="date" placeholder="Date" value="2021-01-01" />
+              <input type="date" placeholder="Date" defaultValue="2021-01-01" />
             </div>
             <div className="content-list__item">
               <input
                 type="date"
                 placeholder="Date"
-                value="2021-01-01"
+                defaultValue="2021-01-01"
                 disabled
               />
             </div>
@@ -173,10 +173,10 @@ const Form = () => {
         <div className="playground__item">
           <div className="content-list">
             <div className="content-list__item">
-              <input type="time" placeholder="Time" value="10:10:00" />
+              <input type="time" placeholder="Time" defaultValue="10:10:00" />
             </div>
             <div className="content-list__item">
-              <input type="time" placeholder="Time" value="10:10:00" disabled />
+              <input type="time" placeholder="Time" defaultValue="10:10:00" disabled />
             </div>
           </div>
         </div>
