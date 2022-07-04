@@ -1,6 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import { render } from "minista";
+import { Head } from "minista";
 
 import "../shokika.css";
 import "../assets/css/docs.css";
@@ -10,9 +9,9 @@ import TheMain from "../components/TheMain";
 import TheFooter from "../components/TheFooter";
 
 const Home = () => {
-  return render(
+  return (
     <>
-      <Helmet>
+      <Head>
         <title>shokika.css - A lightly modern reset CSS.</title>
         <meta
           name="description"
@@ -44,7 +43,7 @@ const Home = () => {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
           rel="stylesheet"
         />
-      </Helmet>
+      </Head>
       <TheHeader />
       <TheMain />
       <TheFooter />
