@@ -223,7 +223,7 @@ const Form = () => {
           </div>
           <div className="content-list__item">
             <label>
-              <input type="checkbox" checked />
+              <input type="checkbox" defaultChecked />
               <span> Two eagles</span>
             </label>
           </div>
@@ -241,7 +241,7 @@ const Form = () => {
         <div className="content-list">
           <div className="content-list__item">
             <label>
-              <input type="radio" name="radio-1" checked />
+              <input type="radio" name="radio-1" defaultChecked />
               <span> One fuji</span>
             </label>
           </div>
@@ -386,7 +386,7 @@ const Form = () => {
           <div className="content-list">
             <div className="content-list__item">
               <label>
-                <input type="radio" name="monster" checked />
+                <input type="radio" name="monster" defaultChecked />
                 <span> Kraken</span>
               </label>
             </div>
