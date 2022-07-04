@@ -61,6 +61,11 @@
   line-height: 1.5;
 }
 
+:where(input[type='file'])::-webkit-file-upload-button,
+:where(input[type='file'])::file-selector-button {
+  cursor: pointer;
+}
+
 :where(iframe) {
   border: 0;
 }
