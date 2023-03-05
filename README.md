@@ -10,6 +10,8 @@ note: shokika means "initialize" in Japanese.
 
 ## Installation
 
+You can install shokika.css using npm, Yarn, or a CDN.
+
 **npm**
 ```
 npm install --save-dev shokika.css
@@ -27,6 +29,8 @@ https://unpkg.com/shokika.css@latest/dist/shokika.min.css
 
 ## Usage
 
+You can use shokika.css by importing it into your project.
+
 **Import**
 
 ```scss
@@ -40,6 +44,8 @@ https://unpkg.com/shokika.css@latest/dist/shokika.min.css
 ```
 
 ## Usage with "CSS in JS"
+
+You can also use shokika.css with "CSS in JS" libraries like Emotion.
 
 ```jsx
 import { css, Global } from '@emotion/react';
@@ -57,10 +63,11 @@ export const CSSReset = () => <Global styles={globalStyle} />;
 It is available in node_modules directory:
 
 * `shokika.css`: raw CSS file
-* `shokika.min.css`: minified CSS file (recommend using production)
+* `shokika.min.css`: minified CSS file (recommended for production)
 
 ## Support
 
-⚠ Support for modern browsers.
+> **Warning**  
+> Support for modern browsers.
 
-This means that IE11 and other legacy browsers will not be supported.
+shokika.css supports modern browsers, but does not support IE11 or other legacy browsers.
