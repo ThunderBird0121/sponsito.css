@@ -53,7 +53,7 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "microbundle": "^0.15.1",
-    "minista": "^2.8.3",
+    "minista": "^2.8.6",
     "postcss": "^8.4.23",
     "postcss-banner": "^4.0.1",
     "postcss-cli": "^10.1.0",
