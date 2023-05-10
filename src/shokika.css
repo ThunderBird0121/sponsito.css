@@ -113,7 +113,18 @@
   -webkit-appearance: none;
 }
 
-:where([tabindex]:not([tabindex*='-']), a[href], button, [type='button'], [type='reset'], [type='submit'], [role='button'], label, select, summary) {
+:where(
+    [tabindex]:not([tabindex*='-']),
+    a[href],
+    button,
+    [type='button'],
+    [type='reset'],
+    [type='submit'],
+    [role='button'],
+    label,
+    select,
+    summary
+  ) {
   cursor: pointer;
 }
 
@@ -131,18 +142,4 @@
 
 :where([aria-disabled='true' i], [disabled]) {
   cursor: not-allowed;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    transition-duration: 1ms !important;
-    transition-delay: 0s !important;
-    animation-duration: 1ms !important;
-    animation-delay: -1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-  }
 }
